@@ -4,7 +4,7 @@ Proyecto inicial para el ejercicio de gestión de empleados. La aplicación crea
 
 ## Qué se proporciona
 
-- Proyecto Maven configurado para Java 17 y H2.
+- Proyecto Maven configurado para Java 25 y H2.
 - Clase de dominio `Empleado`.
 - Conexión y creación automática de la base de datos.
 - Menú de consola y validación básica de datos.
