@@ -1,12 +1,7 @@
 package es.curso.empleados;
 
-import es.curso.empleados.Empleado;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class EmpleadoH2 {
@@ -31,7 +26,7 @@ public class EmpleadoH2 {
     }
 
 
-    public boolean modificar(double salario) throws SQLException {
+    public boolean modificar(int id, double salario) throws SQLException {
         // TODO Actualizar salario a partir del id y devolver si se modificó una fila.
         throw pendiente("modificar");
     }

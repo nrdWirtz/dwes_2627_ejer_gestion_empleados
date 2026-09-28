@@ -151,7 +151,7 @@ public class Aplicacion {
         );
         double salario = leerDoubleNoNegativo("Nuevo salario: ");
 
-        boolean modificado = empleadoH2.modificar(salario);
+        boolean modificado = empleadoH2.modificar(id, salario);
 
         if (modificado) {
             System.out.println("Empleado modificado.");
